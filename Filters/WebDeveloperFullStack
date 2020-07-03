@@ -1,0 +1,41 @@
+name: Full Stack Web (PHP/HTML/CSS/JS)
+desc: Shows most common files for full stack webdev
+
+def: exclude
+
+##Basic frontend
+f: \.htm$
+f: \.html$
+f: \.dhtml$
+f: \.ccs$
+f: \.sass$
+f: \.less$
+f: \.scss$
+f: \.js$
+
+##Basic Backend
+f: \.php$
+
+##Special cases
+f: \.config$
+f: \.conf$
+f: \.htaccess$
+f: \.ini$
+
+##Templating && Misc
+f: \.tpl$ ##Smarty
+f: \.twig$ ##Twig
+f: \.json$
+f: \.yaml$
+f: \.yml$
+f: \.xml$
+
+##add more as needed for your project
+##f: \.$
+##f: \.$
+##f: \.$
+
+
+##allow recursive search
+##
+d: \\*$
